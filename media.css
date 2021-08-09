@@ -1,0 +1,250 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 374.98px) {
+
+    /* header start */
+    .logo {
+        font-size: 20px;
+    }
+    .menu ul li {
+        text-align: center;
+    }
+    .search {
+        text-align: center;
+    }
+    .s_down[data-bs-popper] {
+        top: 53px;
+        left: 45px;
+        margin-top: -8px;
+        height: 51px;
+    }
+    .c_control {
+        width: 150px;
+        height: 30px;
+        padding: 0 12px;
+    }
+    .search_submit {
+        margin-top: 21px;
+        font-size: 16px;
+    }
+    /* header send */
+
+    /* slides start */
+    .caro_text {
+        margin: 45px 0;
+        text-align: center;
+    }
+    .caro_text h1 {
+        font-size: 35px;
+    }
+    .caro_text p {
+        margin: 25px 0;
+        padding: 0;
+        line-height: 1.6rem;
+    }
+    .caro_btn {
+        padding: 6px 15px;
+    }
+    .caro_btn a {
+        font-size: 14px;
+    }
+    .cbp, .cbn {
+        bottom: -120px;
+        font-size: 12px;
+    }
+    /* slides end */
+
+    /* service start */
+    .service {
+        padding-bottom: 25px;
+    }
+    .service_single {
+        margin-bottom: 60px;
+    }
+    .line {
+        height: 30px;
+    }
+    .c_h1 {
+        font-size: 25px;
+    }
+    .Serv_parag p {
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    /* service end */
+
+    /* about start */
+    .ab_img img {
+        margin-bottom: 60px;
+    }
+    .ab_text {
+        text-align: center;
+    }
+    .ab_text h1 {
+        font-size: 25px;
+    }
+    .ab_text p {
+        margin: 15px 0;
+    }
+    .ab_btn {
+        margin-top: 45px;
+    }
+    /* about end */
+
+}
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* header start */
+    .menu ul li {
+        text-align: center;
+    }
+    .search {
+        text-align: center;
+    }
+    .s_down[data-bs-popper] {
+        top: 46px;
+        left: 130px;
+        margin-top: 0.125rem;
+    }
+    /* header send */
+
+    /* slides start */
+    .caro_text {
+        margin: 80px 0;
+    }
+    .caro_text h1 {
+        font-size: 40px;
+    }
+    .caro_text p {
+        margin: 35px 0;
+    }
+    .cbp, .cbn {
+        bottom: -512px;
+    }
+    /* slides end */
+
+    /* service start */
+    .service_single {
+        margin-bottom: 100px;
+    }
+    /* service end */
+
+    /* about start */
+    .ab_img img {
+        margin-bottom: 75px;
+    }
+    .ab_text p {
+        margin: 15px 0;
+    }
+    .cbp, .cbn {
+        bottom: -156px;
+        font-size: 12px;
+    }
+    /* about end */
+
+
+}
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* header start */
+    .menu ul li {
+        text-align: center;
+    }
+    .search {
+        text-align: center;
+    }
+    .s_down[data-bs-popper] {
+        top: 46px;
+        left: 212px;
+        margin-top: 0.125rem;
+        padding: 7px 10px;
+    }
+    /* header send */
+
+    /* slides start */
+    .caro_text {
+        margin: 130px 0;
+    }
+    .caro_text h1 {
+        font-size: 45px;
+    }
+    .cbp, .cbn {
+        bottom: -250px;
+    }
+    /* slides end */
+
+    /* service start */
+    .service {
+        padding-bottom: 20px;
+    }
+    .Serv_parag p {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    .service_single {
+        margin-bottom: 100px;
+    }
+    /* service end */
+
+    /* about start */
+    .ab_img img {
+        width: 360px;
+    }
+    .ab_text h1 {
+        font-size: 22px;
+    }
+    .ab_text p {
+        margin: 0px;
+        font-size: 14px;
+    }
+    .ab_btn {
+        margin-top: 20px;
+    }
+    .ab_btn a {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    /* about end */
+
+
+}
+
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* slider start */
+    .cbp, .cbn {
+        bottom: -512px;
+    }
+    /* slider end */
+
+
+}
+
+
+ /*Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    h1{
+        color: rgb(30, 255, 0);
+    }
+
+
+}
+
+
+
+
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    h1{
+        color: red;
+    }
+
+
+}
